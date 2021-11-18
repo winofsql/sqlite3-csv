@@ -33,3 +33,8 @@ SELECT * FROM 社員マスタ;
 ```
 sqlite3 -csv -header lightbox.sqlite3 "select * from 社員マスタ"
 ```
+
+▼ csv インポートコマンド
+```
+.import csv_file_path table_name
+```
