@@ -21,7 +21,7 @@ sqlite3 dbname.sqlite3 < createdb.txt
 sqlite3 lightbox.sqlite3 < csvget.txt
 ```
 
-▼ lightbox.sqlite3 で CSV 出力 ( 2 )
+▼ lightbox.sqlite3 で CSV 出力 ( 2 ) : ファイル化するにはリダイレクト
 ```
 sqlite3 -csv -header lightbox.sqlite3 "select * from 社員マスタ"
 ```
