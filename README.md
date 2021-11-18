@@ -20,6 +20,14 @@ sqlite3 dbname.sqlite3 < createdb.txt
 ```
 sqlite3 lightbox.sqlite3 < csvget.txt
 ```
+▼ csvget.txt
+```
+.headers on
+.mode csv
+.output syain.csv
+SELECT * FROM 社員マスタ;
+.quit
+```
 
 ▼ lightbox.sqlite3 で CSV 出力 ( 2 ) : ファイル化するにはリダイレクト
 ```
