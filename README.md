@@ -15,6 +15,7 @@ sqlite3 dbname.sqlite3 < createdb.txt
 ```
 
 [lightbox.sqlite3 ダウンロード](https://github.com/winofsql/resource-winofsql/raw/main/sqlite3/lightbox.sqlite3)
+[lightbox.sqlite3 create 文 ダウンロード](https://github.com/winofsql/resource-winofsql/raw/main/sqlite3/create-table.sql)
 
 ▼ lightbox.sqlite3 で CSV 出力 ( 1 )
 ```
