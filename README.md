@@ -13,3 +13,15 @@ create table tbl1(one varchar(10), two smallint);
 ```
 sqlite3 dbname.sqlite3 < createdb.txt
 ```
+
+[lightbox.sqlite3 ダウンロード](https://github.com/winofsql/resource-winofsql/raw/main/sqlite3/lightbox.sqlite3)
+
+▼ lightbox.sqlite3 で CSV 出力 ( 1 )
+```
+sqlite3 lightbox.sqlite3 < csvget.txt
+```
+
+▼ lightbox.sqlite3 で CSV 出力 ( 2 )
+```
+sqlite3 -csv -header lightbox.sqlite3 "select * from 社員マスタ"
+```
