@@ -1,7 +1,7 @@
 # sqlite3-csv
 
 ## ダウンロード 
-[sqlite-tools-win32-x86-3360000.zip](https://www.sqlite.org/download.html)
+[sqlite-tools-win-x64-バージョン.zip](https://www.sqlite.org/download.html)
 
 ▼ createdb.txt ( DBファイル作成の為、tbl1 はダミー )
 ```
